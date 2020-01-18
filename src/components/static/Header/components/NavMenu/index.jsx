@@ -9,12 +9,12 @@ const NavMenu = () => {
     <ul className={root}>
       <li>
         <NavLink activeClassName={active} exact to="/">
-          Posts
+          Home
         </NavLink>
       </li>
       <li>
-        <NavLink activeClassName={active} exact to="/post">
-          Post
+        <NavLink activeClassName={active} exact to="/posts">
+          Posts
         </NavLink>
       </li>
       <li>
